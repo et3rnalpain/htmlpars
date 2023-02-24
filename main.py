@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup as bs
 import csv
 
 #Проверка GIT
+#Ещё одна
 
 class Link:
     def __init__(self, name, link, type, ammount):

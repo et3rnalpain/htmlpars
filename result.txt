@@ -1,0 +1,86 @@
+0. Название: Перейти к контенту URL-адрес: #main
+1. Название: Python 3 URL-адрес: https://python-scripts.com/
+2. Название: Скачать Python URL-адрес: https://python-scripts.com/install-python
+3. Название: IDE URL-адрес: https://python-scripts.com/ide-for-python
+4. Название: Скачать PyCharm URL-адрес: https://python-scripts.com/pycharm-download
+5. Название: Django URL-адрес: https://python-scripts.com/category/django-beginners
+6. Название: Tkinter URL-адрес: https://python-scripts.com/tkinter
+7. Название: Книги URL-адрес: https://python-scripts.com/books
+8. Название: Python установка библиотеки requests URL-адрес: #install-requests
+9. Название: Python библиотека Requests метод GET URL-адрес: #method-get-requests
+10. Название: Объект Response получение ответа на запрос в Python URL-адрес: #object-response
+11. Название: HTTP коды состояний URL-адрес: #status-codes
+12. Название: Получить содержимое страницы в Requests URL-адрес: #content-page-requests
+13. Название: HTTP заголовки в Requests URL-адрес: #http-headers-requests
+14. Название: Python Requests параметры запроса URL-адрес: #params-query
+15. Название: Настройка HTTP заголовка запроса (headers) URL-адрес: #header-modify-requests
+16. Название: Примеры HTTP методов в Requests URL-адрес: #examples-methods-requests
+17. Название: Python Requests тело сообщения URL-адрес: #message-body
+18. Название: Python Requests анализ запроса URL-адрес: #inspect-requests
+19. Название: Python Requests аутентификация HTTP AUTH URL-адрес: #auth-requests-python
+20. Название: Python Requests проверка SSL сертификата URL-адрес: #inspect-ssl
+21. Название: Python Requests производительность приложений URL-адрес: #app-performance
+22. Название: Объект Session в Requests URL-адрес: #object-session
+23. Название: HTTPAdapter — Максимальное количество повторов запроса в Requests URL-адрес: #httpadapter-max
+24. Название: BeautifulSoup URL-адрес: https://python-scripts.com/beautifulsoup-html-parsing
+25. Название: базовые знания HTTP URL-адрес: https://ru.wikipedia.org/wiki/HTTP
+26. Название:  Python Форум Помощи URL-адрес: https://itfy.org/
+27. Название:  Чат URL-адрес: https://telegram.im/@python_scripts?lang=ru
+28. Название: Канал URL-адрес: https://telegram.im/@pip_install?lang=ru
+29. Название:  Подписаться URL-адрес: https://vk.com/open_sourcecode
+30. Название: виртуальную среду URL-адрес: https://python-scripts.com/virtualenv
+31. Название: HTTP методы URL-адрес: https://ru.wikipedia.org/wiki/HTTP#Методы
+32. Название: Root REST API URL-адрес: https://developer.github.com/v3/#root-endpoint
+33. Название: python ошибки URL-адрес: https://python-scripts.com/try-except-finally
+34. Название: статусных кодов URL-адрес: https://ru.wikipedia.org/wiki/Список_кодов_состояния_HTTP
+35. Название: f-строки URL-адрес: https://python-scripts.com/f-strings
+36. Название: строку URL-адрес: https://python-scripts.com/string
+37. Название: UTF-8 URL-адрес: https://ru.wikipedia.org/wiki/UTF-8
+38. Название: кодировку URL-адрес: https://ru.wikipedia.org/wiki/Набор_символов
+39. Название: заголовкам HTTP URL-адрес: https://ru.wikipedia.org/wiki/Заголовки_HTTP
+40. Название: словарей URL-адрес: https://python-scripts.com/lists-tuples-dictionaries#dict
+41. Название: строки запроса URL-адрес: https://en.wikipedia.org/wiki/Query_string
+42. Название: Search API URL-адрес: https://developer.github.com/v3/search/
+43. Название: httpbin.org URL-адрес: https://httpbin.org
+44. Название: Authenticated User URL-адрес: https://developer.github.com/v3/users/#get-the-authenticated-user
+45. Название: базовой схемы аутентификации HTTP URL-адрес: "
+46. Название: поймать исключение URL-адрес: https://python-scripts.com/try-except-finally
+47. Название: Python’s Requests Library (Guide) URL-адрес: https://realpython.com/python-requests/
+48. Название: Vasile Buldumac URL-адрес: https://python-scripts.com/author/monty-python
+49. Название:  URL-адрес: https://www.linkedin.com/in/vbuldumac/
+50. Название: Django для начинающих URL-адрес: https://python-scripts.com/category/django-beginners
+51. Название: Flask уроки для начинающих URL-адрес: https://python-scripts.com/category/flask-beginners
+52. Название: PyCairo URL-адрес: https://python-scripts.com/category/gui/pycairo-tutorials-python
+53. Название: Python 3 для начинающих URL-адрес: https://python-scripts.com/category/learn-python-easy-lessons
+54. Название: Python Новости URL-адрес: https://python-scripts.com/category/python-news
+55. Название: REST API URL-адрес: https://python-scripts.com/category/rest-api
+56. Название: Tkinter URL-адрес: https://python-scripts.com/category/gui/tkinter-python
+57. Название: wxPython URL-адрес: https://python-scripts.com/category/wxpython
+58. Название: Алгоритмы URL-адрес: https://python-scripts.com/category/%d0%b0%d0%bb%d0%b3%d0%be%d1%80%d0%b8%d1%82%d0%bc%d1%8b
+59. Название: Анализ кода URL-адрес: https://python-scripts.com/category/code-analyse
+60. Название: Асинхронное программирование URL-адрес: https://python-scripts.com/category/asynchronous-programming
+61. Название: Базы данных URL-адрес: https://python-scripts.com/category/db
+62. Название: Веб-программирование URL-адрес: https://python-scripts.com/category/web-programming
+63. Название: Видеоуроки URL-адрес: https://python-scripts.com/category/video-tutorials
+64. Название: Графический Интерфейс URL-адрес: https://python-scripts.com/category/gui
+65. Название: Декораторы URL-адрес: https://python-scripts.com/category/decorators
+66. Название: Нейронные сети URL-адрес: https://python-scripts.com/category/neural-network
+67. Название: Обработка данных URL-адрес: https://python-scripts.com/category/work-with-data-python
+68. Название: Продвинутый URL-адрес: https://python-scripts.com/category/pro-python
+69. Название: Работа с PDF URL-адрес: https://python-scripts.com/category/python-pdf
+70. Название: Работа с изображениями URL-адрес: https://python-scripts.com/category/images-python
+71. Название: Разное из мира IT URL-адрес: https://python-scripts.com/category/flood
+72. Название: Создание ботов URL-адрес: https://python-scripts.com/category/%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b1%d0%be%d1%82%d0%be%d0%b2
+73. Название: Создание игр на PyGame URL-адрес: https://python-scripts.com/category/pygame
+74. Название: Создание игр на Python URL-адрес: https://python-scripts.com/category/gamedev
+75. Название: Создание сайта URL-адрес: https://python-scripts.com/category/python-web
+76. Название: Сравнение с языками программирования URL-адрес: https://python-scripts.com/category/%d1%81%d1%80%d0%b0%d0%b2%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81-%d1%8f%d0%b7%d1%8b%d0%ba%d0%b0%d0%bc%d0%b8-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8
+77. Название: Установка и настройка URL-адрес: https://python-scripts.com/category/%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b8-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0
+78. Название: Хакинг URL-адрес: https://python-scripts.com/category/hacking
+79. Название: Декораторы URL-адрес: https://python-scripts.com/category/decorators
+80. Название: Уроки Tkinter URL-адрес: https://python-scripts.com/category/gui/tkinter-python
+81. Название: Уроки PyCairo URL-адрес: https://python-scripts.com/category/gui/pycairo-tutorials-python
+82. Название: Установка Python 3 на Linux URL-адрес: https://python-scripts.com/install-python-3-8-linux
+83. Название: Контакты URL-адрес: https://python-scripts.com/contact
+84. Название: Форум URL-адрес: https://python-scripts.com/forum
+85. Название: Разное из мира IT URL-адрес: https://python-scripts.com/category/flood

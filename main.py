@@ -26,14 +26,14 @@ def recountIndex():
     blockLinks()
 
 def blockLinks():
+
     blockinglist = t.get_children()
     with open("blacklist.txt", 'r', newline='') as f:
         blackList = f.readlines()
     for i in blockinglist:
-        if len(getDomen(t.item(i).get('values')[3])) >= 2:
+        if 'http' in getDomen(t.item(i).get('values')[3])[0] and "/" in t.item(i).get('values')[3]:
             if getDomen(t.item(i).get('values')[3])[2] + '\n' in blackList:
                 t.set(i, 3, "[запрещенная ссылка]")
-
 def deleteSimilar():
     for i in range(len(Links)):
         k = 1
@@ -144,16 +144,19 @@ def exportCSV(event):
         path = str(
             filedialog.asksaveasfilename(filetypes=[("CSV file", ".csv "), ("TXT file", ".txt")],
                                          defaultextension=".csv"))
-        with open(path, 'w', newline='', encoding='cp1251') as file:
+        with open(path, 'w', newline='',encoding='utf-8') as file:
             writer = csv.writer(file, delimiter=';')
-            writer.writerow(['№', 'Тип', 'Название', 'Ссылка', 'Кол-во повторений'])
+            writer.writerow([u'№', u'Тип', u'Название', u'Ссылка', u'Кол-во повторений'])
             allitems = t.get_children()
             for itm in allitems:
                 writer.writerow([str(t.item(itm).get("values")[0]), str(t.item(itm).get("values")[1]),
                                  str(t.item(itm).get("values")[2]), str(t.item(itm).get("values")[3]),
                                  str(t.item(itm).get("values")[4])])
+    except PermissionError:
+        tkinter.messagebox.showerror("Ошибка", "Файл уже используется")
     except:
         tkinter.messagebox.showerror("Ошибка", "Невозможно экспортировать файл")
+
 
 def editLink(event):
     def edit():

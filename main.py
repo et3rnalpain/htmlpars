@@ -140,11 +140,11 @@ def getURL(event):
     recountIndex()
 
 def exportCSV(event):
+    path = str(
+        filedialog.asksaveasfilename(filetypes=[("CSV file", ".csv "), ("TXT file", ".txt")],
+                                     defaultextension=".csv"))
     try:
-        path = str(
-            filedialog.asksaveasfilename(filetypes=[("CSV file", ".csv "), ("TXT file", ".txt")],
-                                         defaultextension=".csv"))
-        with open(path, 'w', newline='',encoding='utf-8') as file:
+        with open(path, 'w', newline='',encoding='cp1251') as file:
             writer = csv.writer(file, delimiter=';')
             writer.writerow([u'№', u'Тип', u'Название', u'Ссылка', u'Кол-во повторений'])
             allitems = t.get_children()
@@ -155,7 +155,14 @@ def exportCSV(event):
     except PermissionError:
         tkinter.messagebox.showerror("Ошибка", "Файл уже используется")
     except:
-        tkinter.messagebox.showerror("Ошибка", "Невозможно экспортировать файл")
+        with open(path, 'w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file, delimiter=';')
+            writer.writerow([u'№', u'Тип', u'Название', u'Ссылка', u'Кол-во повторений'])
+            allitems = t.get_children()
+            for itm in allitems:
+                writer.writerow([str(t.item(itm).get("values")[0]), str(t.item(itm).get("values")[1]),
+                                 str(t.item(itm).get("values")[2]), str(t.item(itm).get("values")[3]),
+                                 str(t.item(itm).get("values")[4])])
 
 
 def editLink(event):
